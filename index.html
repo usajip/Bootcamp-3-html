@@ -1,59 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Table Example</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-    </style>
+    <title>Profil Biodata</title>
 </head>
 <body>
-    <h1>HTML Table Example</h1>
-    
-    <table>
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Age</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>John Doe</td>
-                <td>john@example.com</td>
-                <td>25</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Jane Smith</td>
-                <td>jane@example.com</td>
-                <td>30</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Bob Johnson</td>
-                <td>bob@example.com</td>
-                <td>28</td>
-            </tr>
-        </tbody>
-    </table>
+
+<!-- Section 1: Menu -->
+<table width="100%" border="1">
+    <tr>
+        <td><b>Brand</b></td>
+        <td align="right">
+            Header | Biodata | Portofolio
+        </td>
+    </tr>
+</table>
+
+<!-- Section 2: Header -->
+<table width="100%" border="1">
+    <tr>
+        <td width="50%" valign="top">
+            <h3>Selamat Datang di Website Saya</h3>
+            <p>Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini.</p>
+            <button>Pelajari Lebih Lanjut</button>
+        </td>
+        <td width="50%" align="center">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpIFYVpP9TfUTxc9AKI29Te8Y2_guvg04bMw&s" alt="Header Image">
+        </td>
+    </tr>
+</table>
+
+<!-- Section 3: Biodata -->
+<table width="100%" border="1">
+    <tr>
+        <td colspan="3" align="center">
+            <h2>About Me</h2>
+            <p>A brief introduction about myself</p>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+        	Full Name<br>
+            Aji Pamungkas
+        </td>
+        <td align="center">Education</td>
+        <td align="center">Pekerjaan</td>
+    </tr>
+    <tr>
+        <td align="center">Contact</td>
+        <td align="center">Hobi</td>
+        <td align="center">Alamat</td>
+    </tr>
+</table>
+
+<!-- Section 4: Portofolio -->
+<table width="100%" border="1">
+    <tr>
+        <td colspan="3" align="center">
+            <h2>Portofolio</h2>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpIFYVpP9TfUTxc9AKI29Te8Y2_guvg04bMw&s" alt="Proyek 1"><br>
+            <b>Proyek 1</b><br>
+            Deskripsi proyek 1.
+        </td>
+        <td align="center">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpIFYVpP9TfUTxc9AKI29Te8Y2_guvg04bMw&s" alt="Proyek 2"><br>
+            <b>Proyek 2</b><br>
+            Deskripsi proyek 2.
+        </td>
+        <td align="center">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpIFYVpP9TfUTxc9AKI29Te8Y2_guvg04bMw&s" alt="Proyek 3"><br>
+            <b>Proyek 3</b><br>
+            Deskripsi proyek 3.
+        </td>
+    </tr>
+</table>
+
 </body>
 </html>
