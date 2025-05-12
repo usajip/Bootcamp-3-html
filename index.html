@@ -1,15 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Profil Biodata Saya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Biodata Saya 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/sub_fordel_style.css">
+    <style>
+        table{
+            background-color: white;
+            border: 1px solid rgb(72, 211, 144);
+        }
+        p{
+            font-size: 20px;
+            color: black;
+        }
+        h3{
+            font-size: 30px;
+            color: green;
+        }
+        .judul{
+            font-size: 50px;
+        }
+        .red{
+            color: red;
+        }
+        input[type="text"], input[type="email"] {
+            width: 200px;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        #button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .img-responsive {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
 
 <!-- Section 1: Menu -->
 <table width="100%" border="1">
     <tr>
-        <td><b>Brand</b></td>
-        <td align="right">
+        <td class="judul red"><b>Brand</b></td>
+        <td class="red" align="right">
             Header | Biodata | Portofolio
         </td>
     </tr>
@@ -19,12 +61,19 @@
 <table width="100%" border="1">
     <tr>
         <td width="50%" valign="top">
-            <h3>Selamat Datang di Website SAYA ini!</h3>
+            <h3>Selamat Datang di Website Saya!</h3>
             <p>Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini.</p>
             <button>Pelajari Lebih Lanjut</button>
+            <button id="button">Button + ID</button>
+            <input type="text" placeholder="Masukkan Nama Anda">
+            <input type="email" placeholder="Masukkan Email Anda">
+            <input type="number" placeholder="Masukkan Email Anda">
         </td>
         <td width="50%" align="center">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpIFYVpP9TfUTxc9AKI29Te8Y2_guvg04bMw&s" alt="Header Image">
+            <img src="https://www.jmc.co.id/blog/wp-content/uploads/2020/01/Mengapa-Website-Dianggap-Sebagai-Alat-Bisnis-yang-Sangat-Powerful.jpg" 
+            width="500" alt="Header Image"
+            class="img-responsive"
+            >
         </td>
     </tr>
 </table>
